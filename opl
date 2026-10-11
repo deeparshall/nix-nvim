@@ -1,0 +1,14 @@
+select * from SETTLEMENT_REQUEST a
+where a.DATE_TIME_CREATED>='04-OCT-2026';
+
+select * from RECEIPT_LOG a
+where a.DATE_TIME_CREATED>='04-OCT-2026';
+
+select * from allocation a 
+where a.DATE_TIME_CREATED>='04-OCT-2026';
+
+select * from SETTLEMENT_DOCUMENT_LOG a
+where a.DATE_TIME_CREATED>='04-OCT-2026';
+
+select * from INWARDS_DOCUMENTS a
+where a.DATE_TIME_CREATED>='04-OCT-2026';
